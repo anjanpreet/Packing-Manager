@@ -1,0 +1,23 @@
+#add {
+  width: 6.33em;
+  height: 2.92em;
+  border-radius: 20px;
+  height: 4em;
+  background-color: green;
+  font-weight: 700;
+  border: none;
+}
+
+#delete {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1em;
+}
+
+#clear-list {
+  width: max-content;
+  height: 4em;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffebb3;
+}

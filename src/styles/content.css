@@ -1,0 +1,76 @@
+#content {
+  width: 100%;
+  min-height: 13.3em;
+  background-color: brown;
+  text-align: center;
+}
+
+ul {
+  width: 100%;
+  height: inherit;
+  margin: 0;
+  list-style: none;
+  padding: 4em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  margin-right: 8em;
+}
+
+li input[type="checkbox"] {
+  appearance: none;
+  width: 1.5em;
+  height: 1.5em;
+  border: 2px solid #000;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Style the checkbox when unchecked */
+li input[type="checkbox"] {
+  margin: 1em;
+  background-color: white;
+}
+
+/* Change background color when checked */
+li input[type="checkbox"]:checked {
+  background-color: lightcoral;
+}
+
+li input[type="checkbox"]:checked::before {
+  content: "✔";
+  color: white;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sort {
+  width: 30em;
+  height: 4em;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffebb3;
+  padding: 1em;
+  margin-right: 1em;
+}
+
+#sort:focus {
+  outline: none;
+}
+
+li p {
+  margin-right: 0.5em;
+}
+
+input:checked ~ p {
+  text-decoration: line-through;
+}

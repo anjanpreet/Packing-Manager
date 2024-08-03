@@ -1,0 +1,48 @@
+form {
+  width: 100%;
+  height: 6.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5771f;
+}
+
+form p {
+  height: max-content;
+  margin: 1em;
+  font-size: 1.8em;
+  color: darkred;
+  font-weight: 700;
+}
+
+.item {
+  background-color: #ffebb3;
+  border: none;
+  border-radius: 20px;
+  margin-right: 1em;
+  font-weight: 700;
+  padding: 0.5em;
+}
+
+.count {
+  width: 5em;
+  height: 4em;
+  text-align: center;
+}
+
+.name {
+  width: 30em;
+  height: 4em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
